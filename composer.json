@@ -1,0 +1,29 @@
+{
+    "name": "hilalahmad/http-client",
+    "type": "library",
+    "version": "1.0.0",
+    "description": "The HttpClient PHP package is a package designed for making HTTP requests using cURL. This package simplifies the process of sending GET, POST, PUT, PATCH, and DELETE requests, along with the ability to set custom headers, to external APIs or web services.",
+    "keywords": [
+        "HttpClient",
+        "PHPrequests",
+        "cURLclient",
+        "RESTfulAPI",
+        "Custom headers"
+    ],
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Hilalahmad\\HttpClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "fullstack124",
+            "email": "stackf63@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
